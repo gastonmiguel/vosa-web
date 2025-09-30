@@ -12,6 +12,7 @@ export default function Footer() {
         { name: "Encomiendas", href: "#encomiendas" },
         { name: "Nosotros", href: "#nosotros" },
         { name: "Contacto", href: "#contacto" },
+        { name: "Ubicación de tu Micro", href: "/ubicacion-micro" },
     ]
 
     const services = [

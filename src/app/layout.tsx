@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/app/ui/Header";
+import Footer from "@/app/ui/Footer";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -44,6 +45,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
         <Analytics />
       </body>
     </html>

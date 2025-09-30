@@ -106,6 +106,7 @@ export default function Header() {
                         >
                             Contacto
                         </button>
+                        {/* Elimino el botón feo del menú principal */}
                     </nav>
 
                     {/* CTA Buttons */}
@@ -171,6 +172,7 @@ export default function Header() {
                         >
                             Contacto
                         </button>
+                        {/* Elimino el botón feo del menú mobile */}
 
                         <div className="pt-4 border-t border-gray-200 space-y-3">
                             <a href="tel:08003338672" className="flex items-center gap-2 text-orange-600 font-medium">
